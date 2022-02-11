@@ -1,4 +1,12 @@
 
+@font-face {
+  font-family: 'Pokemon Solid';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
+}
+
+
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
@@ -7,12 +15,6 @@
   --luz: rgb(229, 255, 0);
 }
 
-@font-face {
-  font-family: 'Pokemon Solid';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
-}
 
 body {
   align-items: center;
