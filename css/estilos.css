@@ -6,16 +6,18 @@
   --luz: rgb(229, 255, 0);
 }
 
+
 body {
   align-items: center;
    display: flex;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  
+
 }
 
 h1 {
+  font-family: 'Pokemon Solid', sans-serif; 
    color: yellow;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: blue;
@@ -40,7 +42,7 @@ h1 {
   border: 1px solid red;
   color: black;
   cursor: pointer;
- 
+ background-color: #fff;
 }
 
 .tecla.ativa,
@@ -83,14 +85,14 @@ h1 {
 
 @media screen and (min-width: 768px){
   .tecla{
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   border-radius: 30%;
   }
 
   .teclado{
     border: 50px solid black;
-    padding: 70px;
+    padding: 60px;
   }
   
 
