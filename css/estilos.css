@@ -8,8 +8,7 @@
 
 body {
   align-items: center;
-  background: url('/pokebola.jpg') no-repeat center / cover;
-  display: flex;
+   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
