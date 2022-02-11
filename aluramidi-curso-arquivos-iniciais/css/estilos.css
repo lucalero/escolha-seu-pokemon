@@ -1,0 +1,95 @@
+:root {
+  --cinza: #aaa;
+  --vermelha: #e93d50;
+  --vermelha-escura: #af303f;
+  --branca: #fff;
+  --luz: rgb(229, 255, 0);
+}
+
+body {
+  align-items: center;
+  background: url('/pokebola.jpg') no-repeat center / cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--branca);
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.teclado {
+  background: white;
+  border: solid black;
+  border-radius: 50%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 70px;
+}
+
+.tecla {
+   border-radius: 50px;
+  border: 1px solid red;
+  color: black;
+  cursor: pointer;
+ 
+}
+
+.tecla.ativa,
+.tecla:active {
+  background-color: var(--vermelha);
+  border: 4px solid  var(--vermelha);
+  box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
+  color: var(--branca);
+  outline: none;
+}
+
+.tecla.focus,
+.tecla:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px var(--luz);
+}
+
+.tecla.active:focus,
+.tecla:active:focus {
+  box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+
+
+@media screen and (min-width: 0){
+.tecla{
+  height: 80px;
+  width: 80px;
+  border-radius: 30%;
+  
+  
+}
+
+.teclado{
+  border: 30px solid black;
+  padding: 20px;
+ }
+
+}
+
+@media screen and (min-width: 768px){
+  .tecla{
+  height: 120px;
+  width: 120px;
+  border-radius: 30%;
+  }
+
+  .teclado{
+    border: 50px solid black;
+    padding: 70px;
+  }
+  
+
+}
