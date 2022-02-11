@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: url('pokebola.jpg') no-repeat center / cover;
+  background: url('/images/pokebola.jpg') no-repeat center / cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
