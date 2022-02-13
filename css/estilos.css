@@ -31,8 +31,7 @@ h1 {
    color: yellow;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: blue;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  
   font-size: 2rem;
   text-align: center;
   }
@@ -111,5 +110,9 @@ h1{
     padding: 60px;
   }
   
+  h1{
+    margin-top: 20px;
+  margin-bottom: 10px;
+  }
 
 }
